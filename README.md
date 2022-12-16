@@ -3,7 +3,7 @@
 Sample CRUD Rest Api developed using Rails and JSONAPI::Resources.
 
 # Index
-* [How to Install and Run this Project in your local](#How-to-Install-and-Run-this-Project-in-your-local(Without Docker))
+* [How to Install and Run this Project in your local](#How-to-Install-and-Run-this-Project-in-your-local-Without-Docker)
 
 * [Testing the CRUD API using Postman collection](#How-to-test-CRUD-API-Using-Postman-Collection)
 
@@ -12,15 +12,15 @@ Sample CRUD Rest Api developed using Rails and JSONAPI::Resources.
 - [PostgreSQL](https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-ruby-on-rails-application-on-macos)
 
 
-## How-to-Install-and-Run-this-Project-in-your-local(Without Docker)
+## How-to-Install-and-Run-this-Project-in-your-local-Without-Docker
 
 * Download from github
     ```bash
-        
+        git clone https://github.com/vedsingh-fullstack/online-courses.git
     ```
 * Navigate into the repository
     ```bash
-        
+        cd online-courses
     ```
 * Bundle
 
