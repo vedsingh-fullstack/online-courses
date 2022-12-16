@@ -17,17 +17,17 @@ Sample CRUD Rest Api developed using Rails and JSONAPI::Resources.
 ## How-to-Install-and-Run-this-Project-in-your-local-Without-Docker
 
 * Download from github
-    ```bash
-        git clone https://github.com/vedsingh-fullstack/online-courses.git
-    ```
+```bash
+git clone https://github.com/vedsingh-fullstack/online-courses.git
+```
 * Navigate into the repository
-    ```bash
-        cd online-courses
-    ```
+```bash
+ cd online-courses
+```
 * Bundle
 
 ```bash
-    bundle install
+bundle install
 ```
 
 * database setup
