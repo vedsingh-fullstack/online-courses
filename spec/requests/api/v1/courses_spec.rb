@@ -14,7 +14,7 @@ RSpec.describe 'Api::V1::Courses', type: :request do
 
       post '/api/v1/courses',
            params: valid_params, headers: headers
-      puts response.inspect
+
       expect(response.content_type).to eq('application/vnd.api+json')
       expect(response).to have_http_status(:created)
     end

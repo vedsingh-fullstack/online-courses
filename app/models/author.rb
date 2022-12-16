@@ -13,7 +13,6 @@ class Author < ApplicationRecord
     return unless courses.any?
 
     new_author = Author.where.missing(:courses).first
-
     courses.update(author: new_author)
   end
 end

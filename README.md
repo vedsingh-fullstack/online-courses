@@ -7,6 +7,8 @@ Sample CRUD Rest Api developed using Rails and JSONAPI::Resources.
 
 * [Testing the CRUD API using Postman collection](#How-to-test-CRUD-API-Using-Postman-Collection)
 
+* [Running the spec](#How-to-run-spec)
+
 
 ## Prerequisites
 - [PostgreSQL](https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-ruby-on-rails-application-on-macos)
@@ -71,3 +73,8 @@ Open Postman and navigate to import and click on link and paste below link
  ```sh
 https://www.getpostman.com/collections/e2bfe26607b514593892
 ```
+
+## How-to-run-spec
+ ```sh
+ rspec --format documentation
+ ```
