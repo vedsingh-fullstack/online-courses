@@ -2,6 +2,9 @@
 
 Sample CRUD Rest Api developed using Rails and JSONAPI::Resources.
 
+![elearnio drawio](https://user-images.githubusercontent.com/7689116/208054746-299b7cf1-28b9-4d5e-86ed-201dcf87c363.svg)
+
+
 # Index
 * [How to Install and Run this Project in your local](#How-to-Install-and-Run-this-Project-in-your-local-Without-Docker)
 
