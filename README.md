@@ -67,7 +67,7 @@ rails db:create db:migrate db:seeds
 rails s
 ```
 
-## How-to-Install-and-Run-this-Project-in-your-local-Without-Docker
+## How-to-Install-and-Run-this-Project-in-your-local-with-Docker
 
 ```sh
 docker-compose build
