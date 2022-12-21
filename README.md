@@ -6,8 +6,8 @@ Sample CRUD Rest Api developed using Rails and JSONAPI::Resources.
 
 
 # Index
-* [How to Install and Run this Project in your local](#How-to-Install-and-Run-this-Project-in-your-local-Without-Docker)
-
+* [How to Install and Run this Project in your local without Docker](#How-to-Install-and-Run-this-Project-in-your-local-Without-Docker)
+* [How to Install and Run this Project in your local with Docker](#How-to-Install-and-Run-this-Project-in-your-local-With-Docker)
 * [Testing the CRUD API using Postman collection](#How-to-test-CRUD-API-Using-Postman-Collection)
 
 * [Running the spec](#How-to-run-spec)
@@ -67,6 +67,16 @@ rails db:create db:migrate db:seeds
 rails s
 ```
 
+## How-to-Install-and-Run-this-Project-in-your-local-Without-Docker
+
+```sh
+docker-compose build
+
+docker-compose run web rails db:reset db:migrate db:seed
+
+docker-compose up
+
+```
 ## How-to-test-CRUD-API-Using-Postman-Collection
 
 * Using Postman link
@@ -81,3 +91,4 @@ https://www.getpostman.com/collections/e2bfe26607b514593892
  ```sh
  rspec --format documentation
  ```
+
