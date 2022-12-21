@@ -6,10 +6,14 @@ RSpec.describe 'Api::V1::Courses', type: :request do
     let(:valid_author_relationship) do
     end
     let(:valid_params) do
-      '{ "data": { "type":"courses", "attributes": { "title": "Test1", "description": "user2", "released-on": "12-12-2014" }, "relationships": {"author": {"data": {"type": "authors","id": ' + author.id.to_s + '}}} } }'
+      '{
+        "data": { "type":"courses",
+        "attributes": { "title": "Test1", "description": "user2", "released-on": "12-12-2014" },
+       "relationships": {"author": {"data": {"type": "authors","id": ' + author.id.to_s + '}}} }
+       }'
     end
 
-    it 'create author record' do
+    it 'create courses record' do
       headers = { 'Content-Type' => 'application/vnd.api+json' }
 
       post '/api/v1/courses',
